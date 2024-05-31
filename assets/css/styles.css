@@ -2885,6 +2885,13 @@ table.dataTable thead td {
     color: #233B62;
 }
 
+.font-arab {
+    font-size: 20px;
+    font-family: "Harmattan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .inner-shadow {
     text-shadow: inset 4px 4px 0px 0px #00000025; /* Inner shadow */
 }
