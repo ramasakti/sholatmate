@@ -405,6 +405,20 @@
     border-bottom: 1px solid #d8e3e7;
 }
 
+@media (max-width: 768px) {
+    .header-area {
+        position: sticky;
+        top: 0;
+        z-index: 1000; /* Pastikan elemen berada di atas elemen lainnya */
+        background-color: #233B62; /* Warna latar belakang sesuai dengan desain */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Opsional: tambahkan bayangan untuk memberikan efek */
+    }
+
+    .main-content-inner {
+        padding-top: 60px; /* Sesuaikan dengan tinggi header jika diperlukan */
+    }
+}
+
 .nav-btn {
     margin-right: 30px;
     margin-top: 5px;
