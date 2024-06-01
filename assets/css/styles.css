@@ -680,11 +680,12 @@
 }
 
 .page-title {
-    font-size: 24px;
-    font-weight: 300;
-    color: #313b3d;
-    letter-spacing: 0;
-    margin-right: 30px;
+    font-size: 48px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 57.6px;
+    color: #233B62;
 }
 
 ul.breadcrumbs {
@@ -2862,11 +2863,17 @@ table.dataTable thead td {
     border-radius: 15px; /* Membulatkan sudut */
 }
 
+.sholat-card {
+    background-color: #E3E3E3;
+    border-radius: 15px;
+}
+
 .montserrat {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #1E1E1E;
+    line-height: 15.85px;
 }
 
 .montserrat-700 {
@@ -2886,7 +2893,10 @@ table.dataTable thead td {
 }
 
 .font-arab {
-    font-size: 20px;
+    font-size: 32px;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
+    line-height: 150%;
     font-family: "Harmattan", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -2896,11 +2906,30 @@ table.dataTable thead td {
     text-shadow: inset 4px 4px 0px 0px #00000025; /* Inner shadow */
 }
 
-ol li {
+.li-besar {
     margin-left: 14px;
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #233B62;
 }
-ol li p {
 
+.ul-li {
+    list-style-type: disc;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.ol-li-p {
+    font-weight: bold;
+}
+
+.ol-normal {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 21px;
     font-weight: bold;
 }
 /*-------------------- END Offset Sidebar ------------------- */
